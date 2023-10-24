@@ -5,11 +5,12 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SquareComponent } from './components/square/square.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    SquareComponent
+    SquareComponent,
   ],
   imports: [
     BrowserModule

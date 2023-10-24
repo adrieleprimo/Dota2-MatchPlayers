@@ -2,11 +2,15 @@
     width: 700px;
     height: 580px;
     //background-color: #696969;
-    border-radius: 10px;
+    border-radius: 6px;
     align-content: center;
     margin-left: 320px;
-    margin-top: -150px;
-    opacity: 70%;
-    background: linear-gradient(to bottom, gray 0%, #8d3020 100%);
-   
+    margin-top: 50px;
+    opacity: 40%;
+    background: linear-gradient(to bottom, #181E1C 0%, #181E1C 100%, #1B1519 100%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    position: absolute;
+    border: 3px solid transparent;
+
 }

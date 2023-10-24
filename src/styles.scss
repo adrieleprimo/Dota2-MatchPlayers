@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-    background-color: #8D3020;
+    //background-color: #8D3020;
+    background-image:  url('./assets/background/background_wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    position: absolute;
 }

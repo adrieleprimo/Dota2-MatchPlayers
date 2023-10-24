@@ -6,15 +6,25 @@
     align-content: center;
     justify-content: center;
     margin: 100px;
-    margin-left: 560px;
+   left: 470px;
+    z-index: 10000;
+    position: absolute;
+    width: 200px;
 }
 
-.subtitle{
-    font-family: 'Hypatia Sans', sans-serif;
-    font-size: 30px;
-    font-weight: 300;
-    color: #F0F0F0;
-    margin-left: 610px;
-    margin-top: -80px;
-    position: relative;
+
+
+.valve{
+    width: 100px;
+    margin-top:620px;
+    position: absolute;
+    opacity: 70%;
+}
+
+.dota{
+    width: 200px;
+    position: absolute;
+    top: 530px;
+    left: 1155px;
+    opacity: 70%;
 }
