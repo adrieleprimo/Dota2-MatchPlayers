@@ -1,2 +1,6 @@
 <p class="square"></p>
-
+<button class="button"(click)="toggleSound()" [ngClass]="{'sound-off': !soundEnabled}">
+    <img [src]="soundEnabled ? '../../assets/sound/volume.png' : '../../assets/sound/mute.png'" alt="Sound" class="sound">
+<audio *ngIf="soundEnabled" autoplay loop>
+    <source src="../../../assets/music/dota2_theme.mp3" type="audio/mpeg">
+</audio>

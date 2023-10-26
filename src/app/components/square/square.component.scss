@@ -8,9 +8,19 @@
     margin-top: 50px;
     opacity: 40%;
     background: linear-gradient(to bottom, #181E1C 0%, #181E1C 100%, #1B1519 100%);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    z-index: 1000;
-    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    position: absolute;
     border: 3px solid transparent;
+}
 
+.button {
+    width: 1000px;
+    position: absolute;
+    border: none;
+    background: transparent; 
+    left: -450px;
+    cursor: pointer; 
+}
+
+.button img{
+        width: 40px; 
 }

@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./square.component.scss']
 })
 export class SquareComponent {
+  soundEnabled: boolean = true;
 
+  toggleSound(){
+    
+    this.soundEnabled = !this.soundEnabled;
+  }
 }
